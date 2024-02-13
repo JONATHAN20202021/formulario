@@ -1,0 +1,50 @@
+.card-contenedor{
+    border: 2px groove blueviolet;
+    margin: 10px;
+    display: inline-block;
+    flex-direction: column;
+    padding: 30px;
+   }   
+.card-user{
+    justify-items: center;
+    align-self: center;    
+    font-size: 30px;
+}
+.card-btn{
+    padding: 5px 10px;
+    display:inline-block;
+    text-align:center;
+    cursor:pointer;
+    margin: 10px 10px;
+    gap: 2px;
+    right: 10px;
+    font-size: 15px;
+    
+}
+.card_button{
+display: flex;
+justify-content: end;
+}
+.card-btn:hover{
+    background-color: red;
+    color:antiquewhite
+}
+
+.card-ul{
+    list-style-type:  none;
+    
+
+}
+.card_lista{
+    display: flex;
+    flex-direction: column;
+    
+}
+    
+.card-title{
+    text-align: center;
+
+}
+.card-new{
+    text-align: left;
+}    
